@@ -14,7 +14,7 @@ const Hero = () => {
               transition={{ duration: 0.8 }}
             >
               <span className="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2 mb-3 fw-semibold">
-                <i className="bi bi-patch-check-fill me-2"></i>Leading Medical Bookstore in Chrompet  alanthur
+                <i className="bi bi-patch-check-fill me-2"></i>Leading Medical Bookstore in Chrompet  
               </span>
               <h1 className="display-3 fw-bold text-dark mb-3" style={{ lineHeight: 1.15 }}>
                 CHENNAI MEDICAL  <br />
