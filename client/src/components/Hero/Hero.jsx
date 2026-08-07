@@ -17,9 +17,9 @@ const Hero = () => {
                 <i className="bi bi-patch-check-fill me-2"></i>Leading Medical Bookstore in Chrompet  
               </span>
               <h1 className="display-3 fw-bold text-dark mb-3" style={{ lineHeight: 1.15 }}>
-                CHENNAI MEDICAL  <br />
+               CMBC HEALTH   <br />
                 <span className="text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, #2563EB, #06B6D4)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                  Book Center
+                  Care & Co
                 </span>
               </h1>
               <p className="fs-4 fw-medium text-secondary mb-2">
