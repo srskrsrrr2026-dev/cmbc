@@ -1,18 +1,18 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-@import 'bootstrap-icons/font/bootstrap-icons.css';
-@import 'aos/dist/aos.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "aos/dist/aos.css";
 
 :root {
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Poppins', sans-serif;
-  
-  --bg-primary: #F8FAFC;
-  --bg-white: #FFFFFF;
-  --bg-accent-light: #EEF6FF;
-  --text-dark: #0F172A;
-  --accent-blue: #2563EB;
-  --accent-cyan: #06B6D4;
-  --accent-light-blue: #3B82F6;
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Poppins", sans-serif;
+
+  --bg-primary: #f8fafc;
+  --bg-white: #ffffff;
+  --bg-accent-light: #eef6ff;
+  --text-dark: #0f172a;
+  --accent-blue: #2563eb;
+  --accent-cyan: #06b6d4;
+  --accent-light-blue: #3b82f6;
 
   --glass-bg: rgba(255, 255, 255, 0.85);
   --glass-border: rgba(255, 255, 255, 0.6);
@@ -20,7 +20,8 @@
 }
 
 /* Global resets to prevent horizontal overflow */
-html, body {
+html,
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden !important;
@@ -31,7 +32,12 @@ html, body {
   color: var(--text-dark);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
 }
 
@@ -56,7 +62,9 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 16px;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  transition:
+    transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.3s ease;
 }
 
 .glass-card:hover {
@@ -67,7 +75,12 @@ img {
 
 /* Gradient Animated Buttons */
 .btn-gradient {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan), var(--accent-light-blue));
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue),
+    var(--accent-cyan),
+    var(--accent-light-blue)
+  );
   background-size: 200% 200%;
   animation: gradientShift 4s ease infinite;
   color: #ffffff !important;
@@ -78,7 +91,9 @@ img {
   padding: 10px 22px;
   font-size: 0.95rem;
   box-shadow: 0 4px 15px rgba(37, 99, 235, 0.25);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .btn-gradient:hover {
@@ -87,9 +102,15 @@ img {
 }
 
 @keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* Ambient Animated Mesh */
@@ -139,9 +160,15 @@ img {
 }
 
 @keyframes floatBlur {
-  0% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(20px, 35px) scale(1.05); }
-  100% { transform: translate(-15px, 15px) scale(0.95); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(20px, 35px) scale(1.05);
+  }
+  100% {
+    transform: translate(-15px, 15px) scale(0.95);
+  }
 }
 
 /* ==========================================
@@ -177,17 +204,17 @@ img {
 
 /* Animated Underline Effect */
 .custom-nav .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0%;
   height: 2px;
-  
+
   /* Underline Color / Gradient */
   background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan));
   border-radius: 2px;
-  
+
   /* Underline Speed Control (0.25s = fast & snappy) */
   transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -204,7 +231,7 @@ img {
 /* Mobile Toggle Menu Light Styling */
 @media (max-width: 991.98px) {
   .custom-nav .navbar-collapse {
-    background: #FFFFFF !important;
+    background: #ffffff !important;
     border-radius: 16px;
     padding: 1.25rem 1.5rem;
     margin-top: 12px;
@@ -261,23 +288,27 @@ img {
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.16) !important;
   overflow: hidden !important;
   box-sizing: border-box !important;
-  background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
 }
 
 /* Chat Header Custom Color */
 .chat-window .bg-primary {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-light-blue)) !important;
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue),
+    var(--accent-light-blue)
+  ) !important;
 }
 
 /* Chat Area Background */
 .chat-window .overflow-y-auto {
-  background-color: #F8FAFC !important;
+  background-color: #f8fafc !important;
   scroll-behavior: smooth;
 }
 
 /* Chat Message Bubble Colors */
 .chat-window .bg-white {
-  background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
 }
 
 /* WhatsApp Style Bubble Corners */
@@ -294,7 +325,8 @@ img {
    ========================================== */
 
 @media (max-width: 575.98px) {
-  body, #root {
+  body,
+  #root {
     overflow-x: hidden;
   }
 
@@ -348,7 +380,8 @@ img {
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .btn, .nav-link {
+  .btn,
+  .nav-link {
     min-height: 42px;
     display: inline-flex;
     align-items: center;
@@ -357,15 +390,15 @@ img {
 
 /* Section Theme Wrappers */
 .bg-theme-light {
-  background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
 }
 
 .bg-theme-soft {
-  background-color: #F1F5F9 !important;
+  background-color: #f1f5f9 !important;
 }
 
 .bg-theme-accent {
-  background-color: #EEF6FF !important;
+  background-color: #eef6ff !important;
 }
 
 /* ==========================================
@@ -397,12 +430,12 @@ img {
 }
 
 .btn-whatsapp {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff !important;
 }
 
 .btn-location {
-  background-color: #EA4335;
+  background-color: #ea4335;
   color: #ffffff !important;
 }
 

@@ -1,20 +1,19 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const About = () => {
   const highlights = [
-    { icon: 'bi-book-half', label: 'Medical Books' },
-    { icon: 'bi-heart-pulse', label: 'Nursing Books' },
-    { icon: 'bi-capsule', label: 'Pharmacy Books' },
-    { icon: 'bi-bandaid', label: 'Medical Equipments' },
-    { icon: 'bi-person-workspace', label: 'Doctor & Lab Aprons' },
-    { icon: 'bi-journal-check', label: 'Educational Materials' },
-    { icon: 'bi-pen', label: 'Stationery Supplies' },
+    { icon: "bi-book-half", label: "Medical Books" },
+    { icon: "bi-heart-pulse", label: "Nursing Books" },
+    { icon: "bi-capsule", label: "Pharmacy Books" },
+    { icon: "bi-bandaid", label: "Medical Equipments" },
+    { icon: "bi-person-workspace", label: "Doctor & Lab Aprons" },
+    { icon: "bi-journal-check", label: "Educational Materials" },
+    { icon: "bi-pen", label: "Stationery Supplies" },
   ];
 
   return (
     <section id="about" className="py-5 my-5">
-      
       <Container className="py-4">
         <Row className="align-items-center gy-4">
           {/* Left Column: Visual Image with Location Badge */}
@@ -29,7 +28,9 @@ const About = () => {
                 <i className="bi bi-geo-alt-fill text-danger fs-1"></i>
                 <div>
                   <h6 className="mb-0 fw-bold">Prime Location</h6>
-                  <small className="text-muted">Opposite Rela Hospital, Chrompet</small>
+                  <small className="text-muted">
+                    Opposite Rela Hospital, Chrompet
+                  </small>
                 </div>
               </div>
             </div>
@@ -38,10 +39,17 @@ const About = () => {
           {/* Right Column: Content and List */}
           <Col lg={6} data-aos="fade-left">
             <div className="ps-lg-4">
-              <span className="text-primary fw-semibold uppercase tracking-wider">About Us</span>
-              <h2 className="display-5 fw-bold mt-2 mb-4">Dedicated to Empowering Healthcare Education</h2>
+              <span className="text-primary fw-semibold uppercase tracking-wider">
+                About Us
+              </span>
+              <h2 className="display-5 fw-bold mt-2 mb-4">
+                Dedicated to Empowering Healthcare Education
+              </h2>
               <p className="lead text-secondary mb-4">
-                Chennai Medical Book Centre is conveniently located opposite Rela Hospital, Chrompet, Chennai. We serve as a comprehensive single-source supplier for medical students, doctors, nurses, and healthcare professionals.
+                Chennai Medical Book Centre is conveniently located opposite
+                Rela Hospital, Chrompet, Chennai. We serve as a comprehensive
+                single-source supplier for medical students, doctors, nurses,
+                and healthcare professionals.
               </p>
 
               {/* Itemized Points with Icons */}
@@ -63,7 +71,8 @@ const About = () => {
                   <span>Equipments & Clinical Attire:</span>
                 </div>
                 <div className="text-muted small">
-                  Stethoscopes, BP Monitors, Dissection Kits & Full/Half-Sleeve Aprons with Custom Embroidery.
+                  Stethoscopes, BP Monitors, Dissection Kits & Full/Half-Sleeve
+                  Aprons with Custom Embroidery.
                 </div>
               </div>
 

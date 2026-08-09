@@ -1,10 +1,13 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-vh-100 d-flex align-items-center pt-5 position-relative">
+    <section
+      id="home"
+      className="min-vh-100 d-flex align-items-center pt-5 position-relative"
+    >
       <Container className="py-5">
         <Row className="align-items-center gy-5">
           <Col lg={7}>
@@ -14,11 +17,23 @@ const Hero = () => {
               transition={{ duration: 0.8 }}
             >
               <span className="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2 mb-3 fw-semibold">
-                <i className="bi bi-patch-check-fill me-2"></i>Leading Medical Bookstore in Chrompet  
+                <i className="bi bi-patch-check-fill me-2"></i>Leading Medical
+                Bookstore in Chrompet
               </span>
-              <h1 className="display-3 fw-bold text-dark mb-3" style={{ lineHeight: 1.15 }}>
-               CMBC HEALTH   <br />
-                <span className="text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, #2563EB, #06B6D4)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+              <h1
+                className="display-3 fw-bold text-dark mb-3"
+                style={{ lineHeight: 1.15 }}
+              >
+                CMBC HEALTH <br />
+                <span
+                  className="text-transparent bg-clip-text"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(135deg, #2563EB, #06B6D4)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
+                >
                   Care & Co
                 </span>
               </h1>
@@ -26,30 +41,36 @@ const Hero = () => {
                 Your Trusted Medical Books & Stationery Store in Chennai.
               </p>
               <p className="lead text-muted mb-4">
-                Medical Books | Nursing Books | Pharmacy Books | Equipments | Aprons | Stationery <br />
-                Serving Students and Professionals with Quality Medical Educational Materials.
+                Medical Books | Nursing Books | Pharmacy Books | Equipments |
+                Aprons | Stationery <br />
+                Serving Students and Professionals with Quality Medical
+                Educational Materials.
               </p>
               <div className="d-flex flex-wrap gap-2 mb-4 justify-content-start">
-  <a href="tel:08124127608" className="btn btn-gradient btn-sm px-3 py-2 fw-semibold">
-    <i className="bi bi-telephone-fill me-1"></i>Call Now
-  </a>
-  <a 
-    href="https://wa.me/918056095445" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="btn btn-outline-dark btn-sm rounded-pill px-3 py-2 fw-semibold"
-  >
-    <i className="bi bi-whatsapp me-1 text-success"></i>WhatsApp
-  </a>
-  <a 
-    href="https://maps.app.goo.gl/EAPxvuCthTuTS1m9A" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="btn btn-light btn-sm rounded-pill px-3 py-2 fw-semibold glass-card"
-  >
-    <i className="bi bi-geo-alt-fill me-1 text-danger"></i>Get Directions
-  </a>
-</div>
+                <a
+                  href="tel:08124127608"
+                  className="btn btn-gradient btn-sm px-3 py-2 fw-semibold"
+                >
+                  <i className="bi bi-telephone-fill me-1"></i>Call Now
+                </a>
+                <a
+                  href="https://wa.me/918056095445"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-dark btn-sm rounded-pill px-3 py-2 fw-semibold"
+                >
+                  <i className="bi bi-whatsapp me-1 text-success"></i>WhatsApp
+                </a>
+                <a
+                  href="https://maps.app.goo.gl/EAPxvuCthTuTS1m9A"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-light btn-sm rounded-pill px-3 py-2 fw-semibold glass-card"
+                >
+                  <i className="bi bi-geo-alt-fill me-1 text-danger"></i>Get
+                  Directions
+                </a>
+              </div>
             </motion.div>
           </Col>
           <Col lg={5}>
@@ -64,14 +85,18 @@ const Hero = () => {
                   src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800"
                   alt="Medical Books Library"
                   className="img-fluid rounded-4 shadow-sm w-100 object-fit-cover"
-                  style={{ maxHeight: '420px' }}
+                  style={{ maxHeight: "420px" }}
                 />
               </motion.div>
 
               {/* Floating Stat Card */}
               <motion.div
                 animate={{ y: [0, -12, 0] }}
-                transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 4,
+                  ease: "easeInOut",
+                }}
                 className="glass-card mt-4 p-3 position-absolute top-0 start-0 translate-middle-y ms-n3 d-none d-sm-flex align-items-center gap-3"
               >
                 <div className="rounded-circle bg-primary bg-opacity-10 p-3 text-primary">
