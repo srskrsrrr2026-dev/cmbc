@@ -1,29 +1,35 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap"
+
+import CmbcImg from "../../assets/cmbc.png";
+import ApronsImg from "../../assets/aprons.png";
+import CollectionImg from "../../assets/collecction.png";
+import EquipmentsImg from "../../assets/equipments.png";
+import StatinoryImg from "../../assets/statinory.png";
 
 const galleryImages = [
   {
-    url: "https://images.jdmagicbox.com/v2/comp/chennai/z8/044pxx44.xx44.230106001622.a5z8/catalogue/dr-bala-guhan-dr-rela-institute-and-medical-centre-chromepet-chennai-dentists-7u11n7l7pk.jpg",
+    url: CmbcImg,
     title: "Location (Opp. Rela Hospital)",
     category: "Store & Location",
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQPyGDB5IZAspf91ueVZbSoRnkRnhKB546J98udlU3qW3f2bs7BtWukBpCCHU4MXWwVZ4vN4jRRaa0XxcI",
+    url: CollectionImg,
     title: "Medical & Nursing Books",
     category: "Academic Collection",
   },
   {
-    url: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQa7WE1FAceM_d6FE4XR-t3gyjqd9T9vgKvvR6rgjbOXywouSWg74nfyYycbySgLSmPLEz7L2I0qNbxgLQ",
+    url: EquipmentsImg,
     title: "Diagnostic Equipments",
     category: "Stethoscopes & BP Monitors",
   },
   {
-    url: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSQprvvi_ZVLUeOULCn1zkXob1w6QI21LgyIkSKYrPKlHRrqWHNIH67N7_gpF7lJTbqdHzDfo_s_8mwD98",
+    url: ApronsImg,
     title: "Doctor Aprons & Lab Coats",
     category: "Clinical Attire",
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQJfFZ9u5kBJ7hmLmBWM6845bCZsw3XZg-AX2Ggy2qhNRg0klmNbsIkBpJU-Qnqqj5VG786ierbBaaTHAk",
+    url: StatinoryImg,
     title: "Lab Manuals & Record Books",
     category: "Stationery Section",
   },

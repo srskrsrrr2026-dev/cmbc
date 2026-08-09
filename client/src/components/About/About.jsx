@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+import AboutImg from "../../assets/about.png";
+
 const About = () => {
   const highlights = [
     { icon: "bi-book-half", label: "Medical Books" },
@@ -20,11 +22,11 @@ const About = () => {
           <Col lg={6} data-aos="fade-right">
             <div className="position-relative">
               <img
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800"
+                src={AboutImg}
                 alt="Healthcare Education and Supplies"
                 className="img-fluid rounded-4 shadow-lg"
               />
-              <div className="glass-card p-4 position-absolute bottom-0 end-0 m-3 d-flex gap-3 align-items-center">
+              {/* <div className="glass-card p-4 position-absolute bottom-0 end-0 m-3 d-flex gap-3 align-items-center">
                 <i className="bi bi-geo-alt-fill text-danger fs-1"></i>
                 <div>
                   <h6 className="mb-0 fw-bold">Prime Location</h6>
@@ -32,7 +34,7 @@ const About = () => {
                     Opposite Rela Hospital, Chrompet
                   </small>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
 
