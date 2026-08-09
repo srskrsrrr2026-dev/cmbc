@@ -38,13 +38,27 @@ const About = () => {
 
           {/* Right Column: Content and List */}
           <Col lg={6} data-aos="fade-left">
-            <div className="ps-lg-4">
-              <span className="text-primary fw-semibold uppercase tracking-wider">
+            <div className="ps-lg-4 text-center text-lg-start">
+              <span className="text-primary fw-semibold uppercase tracking-wider d-block">
                 About Us
               </span>
-              <h2 className="display-5 fw-bold mt-2 mb-4">
+              <h2 className="display-5 fw-bold mt-2 mb-3">
                 Dedicated to Empowering Healthcare Education
               </h2>
+
+              {/* Added Tagline Bar */}
+              <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 gap-sm-3 mb-4">
+                <span className="badge bg-primary-subtle text-primary fw-bold px-3 py-2 rounded-pill">
+                  ✓ Best Quality
+                </span>
+                <span className="badge bg-primary-subtle text-primary fw-bold px-3 py-2 rounded-pill">
+                  ✓ Best Price
+                </span>
+                <span className="badge bg-primary-subtle text-primary fw-bold px-3 py-2 rounded-pill">
+                  ✓ Best Service
+                </span>
+              </div>
+
               <p className="lead text-secondary mb-4">
                 Chennai Medical Book Centre is conveniently located opposite
                 Rela Hospital, Chrompet, Chennai. We serve as a comprehensive
@@ -53,7 +67,7 @@ const About = () => {
               </p>
 
               {/* Itemized Points with Icons */}
-              <div className="row g-3 mb-4">
+              <div className="row g-3 mb-4 text-start">
                 {highlights.map((item, index) => (
                   <div key={index} className="col-6">
                     <div className="d-flex align-items-center gap-2">
@@ -65,7 +79,7 @@ const About = () => {
               </div>
 
               {/* Dedicated Equipment & Apron Quick-Feature Bar */}
-              <div className="p-3 bg-light rounded-3 mb-4 border d-flex align-items-center gap-3">
+              <div className="p-3 bg-light rounded-3 mb-4 border d-flex align-items-center gap-3 text-start">
                 <div className="d-flex align-items-center gap-2 text-primary fw-semibold fs-6">
                   <i className="bi bi-patch-check-fill"></i>
                   <span>Equipments & Clinical Attire:</span>
@@ -77,20 +91,19 @@ const About = () => {
               </div>
 
               {/* Stats Bar */}
-              <div className="d-flex gap-4 pt-3 border-top">
-                <div>
-                  <h3 className="fw-bold text-primary mb-0">100%</h3>
-                  <small className="text-muted">Genuine Books</small>
+              <div className="d-flex flex-column flex-sm-row gap-4 pt-3 border-top text-start">
+                <div className="d-flex align-items-center gap-2">
+                  <h3 className="fw-bold text-primary mb-0">27+</h3>
+                  <span className="fw-semibold text-dark">
+                    Years of Excellence in Medical Books trade
+                  </span>
                 </div>
-                <div className="vr"></div>
-                <div>
-                  <h3 className="fw-bold text-primary mb-0">15+</h3>
-                  <small className="text-muted">Years Experience</small>
-                </div>
-                <div className="vr"></div>
-                <div>
-                  <h3 className="fw-bold text-primary mb-0">5★</h3>
-                  <small className="text-muted">Customer Rating</small>
+                <div className="vr d-none d-sm-block"></div>
+                <div className="d-flex align-items-center gap-2">
+                  <h3 className="fw-bold text-primary mb-0">16+</h3>
+                  <span className="fw-semibold text-dark">
+                    Years of Trusted Service to Medical Professionals
+                  </span>
                 </div>
               </div>
             </div>

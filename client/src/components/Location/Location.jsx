@@ -7,15 +7,17 @@ const Location = () => {
       <Container className="py-4">
         <Row className="align-items-center gy-4">
           <Col lg={5} data-aos="fade-right">
-            <span className="text-primary fw-bold">FIND US</span>
-            <h2 className="display-5 fw-bold mb-4">Visit Our Store</h2>
+            <div className="text-center text-lg-start">
+              <span className="text-primary fw-bold d-block">FIND US</span>
+              <h2 className="display-5 fw-bold mb-4">Visit Our Store</h2>
+            </div>
             <div className="glass-panel p-4 mb-4">
               <div className="d-flex gap-3 mb-3">
                 <i className="bi bi-geo-alt-fill text-danger fs-3"></i>
                 <div>
                   <h6 className="fw-bold mb-1">Address</h6>
                   <p className="text-muted mb-0">
-                    No.22 CLC Work Road, opp. Rela Hospital / SBMCA Near :
+                    No.22 CLC Works Road, opp. Rela Hospital / SBMCA Near :
                     Rahaat Rooms Chrompet, Chennai-600044
                   </p>
                 </div>
@@ -30,7 +32,7 @@ const Location = () => {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-wrap gap-2">
+            <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2">
               <a
                 href="https://maps.app.goo.gl/EAPxvuCthTuTS1m9A"
                 target="_blank"
