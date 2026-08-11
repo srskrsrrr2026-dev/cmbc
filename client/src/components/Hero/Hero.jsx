@@ -1,8 +1,7 @@
+// src/components/Hero/Hero.jsx
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-
-
 
 const Hero = () => {
   return (
@@ -19,8 +18,7 @@ const Hero = () => {
               transition={{ duration: 0.8 }}
             >
               <span className="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2 mb-3 fw-semibold">
-                <i className="bi bi-patch-check-fill me-2"></i>Leading Medical
-                Bookstore in Chrompet
+                <i className="bi bi-patch-check-fill me-2"></i>Leading Medical Bookstore in Chromepet
               </span>
               <h1
                 className="display-3 fw-bold text-dark mb-3"
@@ -36,41 +34,41 @@ const Hero = () => {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  Care & Co
+                  Care & Co.
                 </span>
               </h1>
               <p className="fs-4 fw-medium text-secondary mb-2">
                 Your Trusted Medical Books & Stationery Store in Chennai.
               </p>
               <p className="lead text-muted mb-4">
-                Medical Books | Nursing Books | Pharmacy Books | Equipments |
-                Aprons | Stationery <br />
-                Serving Students and Professionals with Quality Medical
-                Educational Materials.
+                MBBS Textbooks | Nursing Books | Pharmacy Manuals | Stethoscopes | Doctor Lab Coats | Lab Records <br />
+                Serving Students and Doctors with Authorized Medical Literature.
               </p>
               <div className="d-flex flex-wrap gap-2 mb-4 justify-content-start">
                 <a
                   href="tel:08124127608"
                   className="btn btn-gradient btn-sm px-3 py-2 fw-semibold"
+                  aria-label="Call CMBC Healthcare Store"
                 >
-                  <i className="bi bi-telephone-fill me-1"></i>Call Now
+                  <i className="bi bi-telephone-fill me-1"></i>Call Store
                 </a>
                 <a
                   href="https://wa.me/918056095445"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline-dark btn-sm rounded-pill px-3 py-2 fw-semibold"
+                  aria-label="Chat with CMBC Healthcare on WhatsApp"
                 >
-                  <i className="bi bi-whatsapp me-1 text-success"></i>WhatsApp
+                  <i className="bi bi-whatsapp me-1 text-success"></i>WhatsApp Order
                 </a>
                 <a
                   href="https://maps.app.goo.gl/EAPxvuCthTuTS1m9A"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-light btn-sm rounded-pill px-3 py-2 fw-semibold glass-card"
+                  aria-label="Get Directions to CMBC Store in Chrompet"
                 >
-                  <i className="bi bi-geo-alt-fill me-1 text-danger"></i>Get
-                  Directions
+                  <i className="bi bi-geo-alt-fill me-1 text-danger"></i>Get Directions
                 </a>
               </div>
             </motion.div>
@@ -85,13 +83,14 @@ const Hero = () => {
               >
                 <img
                   src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800"
-                  alt="Medical Books Library"
+                  alt="Medical textbooks and reference manuals collection at CMBC Healthcare Chennai"
                   className="img-fluid rounded-4 shadow-sm w-100 object-fit-cover"
                   style={{ maxHeight: "420px" }}
+                  width="800"
+                  height="420"
                 />
               </motion.div>
 
-              {/* Floating Stat Card */}
               <motion.div
                 animate={{ y: [0, -12, 0] }}
                 transition={{
@@ -106,7 +105,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <h5 className="mb-0 fw-bold">10,000+</h5>
-                  <small className="text-muted">Books Available</small>
+                  <small className="text-muted">Medical Titles Stocked</small>
                 </div>
               </motion.div>
             </div>

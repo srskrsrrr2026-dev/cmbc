@@ -158,7 +158,7 @@ const Footer = () => {
                   <i className="bi bi-geo-alt text-primary fs-5 flex-shrink-0 mt-1"></i>
                   <span>
                     No.22 CLC Work Road, opp. Rela Hospital / SBMCA Near :
-                    Rahaat Rooms Chrompet, Chennai-600044
+                    Rahaat Rooms Chromepet, Chennai-600044
                   </span>
                 </div>
                 <div className="d-flex gap-2">

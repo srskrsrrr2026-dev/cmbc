@@ -3,16 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CMBC</title>
+
+    <!-- Fallback Title & Meta (Used on initial crawler fetch) -->
+    <title>
+      CMBC Healthcare Co. | Medical Books & Supplies Store in Chennai
+    </title>
+    <meta
+      name="description"
+      content="CMBC Healthcare Co. in Chrompet, Chennai offers MBBS, BDS, Nursing textbooks, Doctor Aprons, Stethoscopes, BP Monitors, and Lab Manuals. Best price & fast local delivery."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Google Search Console Ownership Verification -->
+    <!-- REPLACE 'YOUR_GSC_VERIFICATION_CODE' with your actual code from Google Search Console -->
+    <meta
+      name="google-site-verification"
+      content="YOUR_GSC_VERIFICATION_CODE"
+    />
+
+    <!-- Google Analytics 4 (GA4) Tracking -->
+    <!-- REPLACE 'G-XXXXXXXXXX' with your actual GA4 Measurement ID -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
 
     <!-- Favicon & Touch Icons -->
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <link rel="alternate icon" type="image/png" href="/logo.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Preconnect & Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="root"></div>

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 import CmbcImg from "../../assets/cmbc.png";
 import ApronsImg from "../../assets/aprons.png";
-import CollectionImg from "../../assets/collecction.png";
+import CollectionImg from "../../assets/collections.png";
 import EquipmentsImg from "../../assets/equipments.png";
 import StatinoryImg from "../../assets/statinory.png";
 
