@@ -3,6 +3,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 
+import HeroImg from "../../assets/heroimg.png"
+
 const Hero = () => {
   return (
     <section
@@ -82,7 +84,7 @@ const Hero = () => {
                 className="glass-panel p-4 position-relative overflow-hidden"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800"
+                  src={HeroImg}
                   alt="Medical textbooks and reference manuals collection at CMBC Healthcare Chennai"
                   className="img-fluid rounded-4 shadow-sm w-100 object-fit-cover"
                   style={{ maxHeight: "420px" }}

@@ -62,8 +62,8 @@ const About = () => {
               </div>
 
               <p className="lead text-secondary mb-4">
-                Chennai Medical Book Centre is conveniently located opposite 
-                Rela Hospital, Chrompet, Chennai. We serve as a comprehensive
+                CMBC Health Care & Co is conveniently located opposite 
+                Rela Hospital, Chromepet, Chennai. We serve as a comprehensive
                 single-source supplier for medical students, doctors, nurses,
                 and healthcare professionals.
               </p>
