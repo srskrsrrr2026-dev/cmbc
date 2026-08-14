@@ -6,10 +6,21 @@ const productsData = [
     category: "Medical Books",
     icon: "bi-hospital",
     items: [
-      "MBBS Textbooks",
+      "MBBS Guides & Textbooks",
       "Anatomy & Physiology",
       "Pathology & Pharmacology",
       "Surgery & Specialties",
+      "Dental & BDS Textbooks",
+    ],
+  },
+  {
+    category: "Allied Health Sciences",
+    icon: "bi-bandaid",
+    items: [
+      "Textbooks & Reference Books",
+      "PG Entrance Guides",
+      "Speciality Books Distribution",
+      "Paramedical & Lab Sciences",
     ],
   },
   {
@@ -25,12 +36,7 @@ const productsData = [
   {
     category: "Pharmacy Books",
     icon: "bi-capsule",
-    items: [
-      "D.Pharm Manuals",
-      "B.Pharm Textbooks",
-      "Medicinal Chemistry",
-      "Pharmacognosy",
-    ],
+    items: ["D.Pharm Manuals", "B.Pharm Textbooks"],
   },
   {
     category: "Equipments & Tools",
